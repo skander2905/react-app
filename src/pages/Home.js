@@ -27,7 +27,7 @@ const Home = () => {
           <div class="row text-center">
             <div class="col-md-8">
               <h1 ><centre><b>Bienvenu!</b></centre></h1>
-              <h1 class="white-text">Gérer vos Factures simplement</h1>
+              <h1 class="white-text">Gérer vos Factures facilement</h1>
               <h5 class="white-text">Gérez votre fichier client, établissez des devis et générez des factures gratuitement</h5>
               <div id="countdown" class="white-text"></div>
             </div>
