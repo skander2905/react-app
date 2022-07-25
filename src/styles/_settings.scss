@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka&display=swap");
- $color1: rgb(139, 126, 129);
+$color1: rgb(139, 126, 129);
 $black1: rgb(206, 184, 150);
 $black2: rgb(230, 234, 236);
 $black3: rgb(193, 196, 199);
@@ -13,7 +13,7 @@ $shadow: 0 3px 20px rgba(0, 0, 0, 0.356);
   align-items: center;
 }
 
- * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -25,8 +25,8 @@ body {
   color: $white;
 }
 
- button,
- input[type="submit"] {
+button,
+input[type="submit"] {
   background: none;
   border: none;
   cursor: pointer;

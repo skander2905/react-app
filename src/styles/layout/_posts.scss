@@ -11,15 +11,17 @@
     position: relative;
     border-left: 1px solid rgb(143, 0, 0);
 
-     .title {
+    .title {
       display: flex;
       align-items: center;
       text-transform: uppercase;
-       h2 {
+
+      h2 {
         text-transform: capitalize;
         font-size: 2rem;
       }
-       span {
+
+      span {
         background: $color1;
         border-radius: 150px;
         font-size: 1.2rem;
@@ -33,15 +35,16 @@
       }
     }
 
-     h5 {
+    h5 {
       color: $grey;
     }
+
     .right-part {
       position: absolute;
       top: 20px;
       right: 12px;
 
-       i {
+      i {
         margin: 0 5px;
         border-radius: 20px;
         height: 20px;
@@ -56,13 +59,15 @@
         }
       }
     }
-     p {
+
+    p {
       margin: 20px 0 10px;
     }
 
-     .comment-title {
+    .comment-title {
       margin-top: 30px;
     }
+
     .comment-post {
       h5 {
         text-transform: capitalize;
@@ -71,7 +76,7 @@
       }
     }
 
-     textarea {
+    textarea {
       width: 100%;
       margin-top: 20px;
       margin-left: 0;
@@ -79,7 +84,8 @@
       height: 65px;
       background: rgb(216, 216, 216);
     }
-     input[type="submit"] {
+
+    input[type="submit"] {
       width: 100px;
       display: block;
       margin-left: auto;
@@ -88,7 +94,7 @@
       border-radius: 10px 0 10px 10px;
     }
 
-     .edit-btn {
+    .edit-btn {
       border-radius: 8px;
       padding: 5px 10px;
       margin-left: auto;
@@ -97,8 +103,8 @@
       display: block;
     }
 
-     .comment-container {
-       .comment-post {
+    .comment-container {
+      .comment-post {
         background: $black3;
         border-radius: 10px;
         margin: 6px 0;

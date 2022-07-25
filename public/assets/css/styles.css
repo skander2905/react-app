@@ -8,10 +8,10 @@
 
 
 
-a,
-a:hover,
-a:active,
-a:focus {
+.home a,
+.home a:hover,
+.home a:active,
+.home a:focus {
 	border: 0 none;
 	outline: 0 none;
 	text-decoration: none;
@@ -30,7 +30,7 @@ a:focus {
 /* CUSTOM CLASSES */
 
 
-.colored-line-small-center {
+.home .colored-line-small-center {
 	background: #2a2c2d;
 	display: block;
 	margin: auto;
@@ -40,7 +40,7 @@ a:focus {
 	margin-bottom: 5px;
 }
 
-.colored-line-right {
+.home .colored-line-right {
 	background: #008ed6;
 	display: block;
 	float: right;
@@ -49,7 +49,7 @@ a:focus {
 	z-index: 1;
 }
 
-.button-leweb {
+.home .button-leweb {
 	background: none repeat scroll 0 0 rgba(22, 182, 234, 0.5);
 	border: 1px solid #fff;
 	color: #fff;
@@ -66,30 +66,30 @@ a:focus {
 }
 
 
-.button-leweb:hover {
+.home .button-leweb:hover {
 	background: #008ed6;
 }
 
 
 /* SECTIONS */
 
-section {
+.home section {
 	padding: 120px 0px;
 }
 
 /* HEADER */
-#about .container .hh {
+.home #about .container .hh {
 	color: rgb(113, 111, 111);
 }
 
-#header {
+.home #header {
 	background: url(../images/avocat5.jpg) no-repeat center center;
 	background-size: cover;
 	height: 100vh;
 	padding: 0px;
 }
 
-#header .container {
+.home #header .container {
 	background: url(../images/body-bg1.png) repeat 0 0;
 	height: 100vh;
 	width: 100% !important;
@@ -97,7 +97,7 @@ section {
 	z-index: 998;
 }
 
-#header .col-md-8 {
+.home #header .col-md-8 {
 	top: 20%;
 	right: 0;
 	bottom: 0;
@@ -109,11 +109,11 @@ section {
 	z-index: 999;
 }
 
-#header .logo {
+.home #header .logo {
 	margin-bottom: 15px;
 }
 
-.animation {
+.home .animation {
 	width: 100%;
 	bottom: 0;
 	height: 50px;
@@ -243,7 +243,7 @@ section {
 
 }
 
-#subscribe #mc_form label {
+.home #subscribe #mc_form label {
 	display: block;
 	font-size: 12px !important;
 	margin-top: 10px;
@@ -294,7 +294,7 @@ section {
 	padding: 25px 0px;
 }
 
-#footer p {
+.home #footer p {
 	margin: 0px 0px -5px;
 }
 
@@ -321,7 +321,7 @@ section {
 /* Extra Small devices (tablets, 446px and less) */
 @media (max-width: 456px) {
 
-	.temp #mc_form .form-control {
+	.home .temp #mc_form .form-control {
 		width: 100%;
 		margin-bottom: 15px;
 	}
@@ -442,7 +442,7 @@ section {
 	transition: 0.5s;
 }
 
-#sec h3 {
+.home #sec h3 {
 	font-size: 20px;
 	font-weight: 600;
 	color: #1f194c;
@@ -456,7 +456,7 @@ section {
 	letter-spacing: 0.03em;
 }
 
-#sec .icon-wrapper {
+.home #sec .icon-wrapper {
 	background-color: #CEB896;
 	position: relative;
 	margin: auto;

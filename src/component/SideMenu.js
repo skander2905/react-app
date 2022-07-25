@@ -5,6 +5,7 @@ import { auth } from "../utils/firebase.config";
 import MenuItem from './MenuItem';
 import Home from '../pages/Home';
 import { Link } from 'react-router-dom';
+import "../pages/CreatePost.css";
 
 
 const menuItems = [
