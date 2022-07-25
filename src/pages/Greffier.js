@@ -6,7 +6,7 @@ const Greffier = () => {
     return (
         <div>
             
-            <div className='container'>
+            <div className='page'>
                 <h1>Greffier</h1>
             </div>
         </div>

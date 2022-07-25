@@ -7,7 +7,7 @@ const Utilisateur = () => {
     return (
         <div>
             
-            <div className='container'>
+            <div className='page'>
                 <h1>utilisateur</h1>
             </div>
         </div>

@@ -7,7 +7,7 @@ const Parametres_globales = () => {
     return (
         <div>
             
-            <div className='container'>
+            <div className='page'>
                 <h1>Parametres globales</h1>
             </div>
         </div>

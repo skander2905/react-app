@@ -6,7 +6,7 @@ const Emplacement_dossier = () => {
     return (
         <div>
         
-        <div className='container'>
+        <div className='page'>
             <h1>Emplacement dossier</h1>
         </div>
     </div>

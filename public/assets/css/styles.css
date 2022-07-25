@@ -5,22 +5,8 @@
 */
 
 /* GLOBAL STYLES */
-* {
-	margin: 0px;
-	padding: 0px;
-}
 
-body {
-	background: #fff;
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-	font-weight: 300;
-	color: #333333;
-	line-height: 28px;
-	text-align: center;
-	overflow-x: hidden !important;
-	margin: auto !important;
-}
+
 
 a,
 a:hover,
@@ -33,55 +19,16 @@ a:focus {
 
 /* TYPOGRAPHIE */
 
-h1,
-h2 {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
-}
 
-h1 {
-	font-size: 42px;
-	line-height: 62px;
-}
 
-h2 {
-	font-size: 32px;
-	line-height: 42px;
-}
-
-h3 {
-	font-size: 22px;
-	line-height: 38px;
-	font-weight: 300;
-}
-
-h4 {
-	font-size: 20px;
-	line-height: 30px;
-	font-weight: 300;
-}
-
-h5 {
-	font-size: 18px;
-	font-weight: 300;
-}
 
 
 /* FORM GROUPS */
 
-.form-control {
-	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
-	border-radius: 0px;
-	box-shadow: none;
-	height: 57px;
-	padding-left: 20px;
-}
+
 
 /* CUSTOM CLASSES */
 
-.white-text {
-	color: #fff;
-}
 
 .colored-line-small-center {
 	background: #2a2c2d;
@@ -396,37 +343,37 @@ section {
 /* Small devices (tablets, 768px and less) */
 @media (max-width: 768px) {
 
-	body {
+	.home body {
 		font-size: 14px;
 		line-height: 20px;
 	}
 
-	h1 {
+	.home h1 {
 		font-size: 44px;
 		line-height: 58px;
 	}
 
-	h2 {
+	.home h2 {
 		font-size: 24px;
 		line-height: 38px;
 	}
 
-	h3 {
+	.home h3 {
 		font-size: 18px;
 		line-height: 30px;
 	}
 
-	h4 {
+	.home h4 {
 		font-size: 16px;
 		line-height: 26px;
 	}
 
-	h5 {
+	.home h5 {
 		font-size: 14px;
 		line-height: 20px;
 	}
 
-	.clocktitle {
+	.home .clocktitle {
 		font-size: 11px;
 	}
 

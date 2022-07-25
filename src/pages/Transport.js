@@ -6,7 +6,7 @@ const Transport = () => {
     return (
         <div>
             
-            <div className='container'>
+            <div className='page'>
                 <h1>Transport</h1>
             </div>
         </div>

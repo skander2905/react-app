@@ -6,7 +6,7 @@ const Recette_du_finance = () => {
     return (
         <div>
             
-            <div className='container'>
+            <div className='page'>
                 <h1>Recette du finance</h1>
             </div>
         </div>

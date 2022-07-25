@@ -6,7 +6,7 @@ const Photocopie = () => {
     return (
         <div>
             
-            <div className='container'>
+            <div className='page'>
                 <h1>Photocopie</h1>
             </div>
         </div>

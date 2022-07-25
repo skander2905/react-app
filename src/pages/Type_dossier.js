@@ -7,7 +7,7 @@ const Type_dossier = () => {
     return (
         <div>
 
-            <div className='container'>
+            <div className='page'>
                 <h1>Type_dossier</h1>
             </div>
         </div>

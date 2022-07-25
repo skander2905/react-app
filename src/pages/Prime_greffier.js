@@ -6,7 +6,7 @@ const Prime_greffier = () => {
     return (
         <div>
             
-            <div className='container'>
+            <div className='page'>
                 <h1>Prime greffier</h1>
             </div>
         </div>
