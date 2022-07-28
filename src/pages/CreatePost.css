@@ -1,34 +1,14 @@
-.menu {
-    margin: 0 !important;
-    padding: 0 !important;
-    background-color: rgb(255, 255, 255) !important;
-    font-family: 'Open Sans', sans-serif !important;
-    color: black;
-
-
-}
-
-.menu ul {
-    padding: 0 !important;
-    margin: 0 !important;
-}
-
-.menu li {
-    list-style: none !important;
-}
-
-
 .side-menu {
     position: fixed !important;
-    background: rgb(0, 0, 0) !important;
-    width: 300px !important;
+    background: rgb(255, 255, 255) !important;
+    width: 250px !important;
     height: 100% !important;
     text-align: justify !important;
     margin-top: 0px !important;
 }
 
 .side-menu .main-menu .menu-item {
-    color: #333 !important;
+    color: rgb(0, 0, 0) !important;
     text-decoration: none !important;
     font-size: 15px !important;
     display: block !important;
@@ -37,7 +17,7 @@
 }
 
 .side-menu .main-menu .menu-item.active {
-    background: #666 !important;
+    background: rgb(0, 0, 0) !important;
     border-radius: 5px !important;
     color: #fff !important;
 }
@@ -62,9 +42,9 @@
 }
 
 .side-menu .main-menu .sub-menu a {
-    color: #333 !important;
+    color: #8d9194 !important;
     margin-left: 25px !important;
-    border-left: 5px solid #666 !important;
+    border-left: 5px solid#efefef !important;
     box-sizing: border-box !important;
     padding-left: 30px !important;
     display: block !important;
@@ -77,12 +57,13 @@
 }
 
 .side-menu .main-menu .sub-menu a.active {
-    background: #666 !important;
+    background: #efefef !important;
     display: block !important;
 
     border-radius: 5px !important;
-    color: #fff !important;
+    color: rgb(0, 0, 0) !important;
     margin-left: 25px !important;
+    width: 200px;
 
 }
 
@@ -92,7 +73,7 @@
 
 .side-menu-footer {
     width: 100% !important;
-    background: #333 !important;
+    background: rgb(0, 0, 0) !important;
     position: absolute !important;
     bottom: 0 !important;
     left: 0 !important;
@@ -114,4 +95,29 @@
 
 .side-menu-footer .logout {
     float: right !important;
+
+}
+
+.side-menu-footer .logout .button {
+    background-color: #fff;
+}
+
+.page1 {
+    margin-left: 250px !important;
+    text-align: center;
+    font-size: 60px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.logout button p{
+    color: white;
+}
+
+.fa-arrow-right-from-bracket{
+    color: #fff;
+}
+
+button{
+    background: black;
 }

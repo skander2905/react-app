@@ -36,32 +36,25 @@ const App = () => {
 
       <Routes>
         <Route path="/" element={<Home />} />
-
-
-
         <Route element={<SidebarLayout />}>
 
           <Route path="/CreatePost" element={<CreatePost />} />
-
-
-          <Route path="/CreatePost/parametres/Type_dossier" element={<Type_dossier />} />
-          <Route path="/CreatePost/parametres/parametres_globales" element={<Parametres_globales />} />
-          <Route path="/CreatePost/parametres/honoraires_en_extra" element={<Honoraires_extra />} />
-          <Route path="/CreatePost/parametres/emplacement_dossier" element={<Emplacement_dossier />} />
-          <Route path="/CreatePost/parametres/tribunaux_et_administration" element={<Tribu_et_admin />} />
-          <Route path="/CreatePost/parametres/utilisateur" element={<Utilisateur />} />
-          <Route path="/CreatePost/parametres/huissier" element={<Huissier />} />
-          <Route path="/CreatePost/parametres/collaborateur" element={<Collaborateur />} />
-          <Route path="/CreatePost/parametres/greffier" element={<Greffier />} />
-          <Route path="/CreatePost/parametres/prime_greffier" element={<Prime_greffier />} />
-          <Route path="/CreatePost/parametres/timbre" element={<Timbre />} />
-          <Route path="/CreatePost/parametres/photocopie" element={<Photocopie />} />
-          <Route path="/CreatePost/parametres/transport" element={<Transport />} />
-          <Route path="/CreatePost/parametres/recette_du_finance" element={<Recette_du_finance />} />
+          <Route path="/CreatePost/Type_dossier" element={<Type_dossier />} />
+          <Route path="/CreatePost/Parametres_globales" element={<Parametres_globales />} />
+          <Route path="/CreatePost/Honoraires_en_extra" element={<Honoraires_extra />} />
+          <Route path="/CreatePost/Emplacement_dossier" element={<Emplacement_dossier />} />
+          <Route path="/CreatePost/Tribunaux_et_administration" element={<Tribu_et_admin />} />
+          <Route path="/CreatePost/Utilisateur" element={<Utilisateur />} />
+          <Route path="/CreatePostHuissier" element={<Huissier />} />
+          <Route path="/CreatePost/Collaborateur" element={<Collaborateur />} />
+          <Route path="/CreatePost/Greffier" element={<Greffier />} />
+          <Route path="/CreatePost/Prime_greffier" element={<Prime_greffier />} />
+          <Route path="/CreatePost/Timbre" element={<Timbre />} />
+          <Route path="/CreatePost/Photocopie" element={<Photocopie />} />
+          <Route path="/CreatePost/Transport" element={<Transport />} />
+          <Route path="/CreatePost/Recette_du_finance" element={<Recette_du_finance />} />
 
         </Route>
-
-
       </Routes>
     </BrowserRouter>
   );
