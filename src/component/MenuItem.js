@@ -18,7 +18,7 @@ const MenuItem = (props) => {
                         {subMenus.map((menu, index) =>
                             <li key={index}>
                                 <NavLink to={menu.to}>
-                                    {menu.name}
+                                    <i class="bi bi-three-dots"></i> {menu.name}
                                 </NavLink>
                             </li>)}
 

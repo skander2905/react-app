@@ -13,7 +13,7 @@ const menuItems = [
         name: 'Paramètres',
         exact: true,
         subMenus: [
-            { name: "Type Dossier", to: "/Admin/Type_Dossier" },
+            { name: 'Type Dossier' , to: "/Admin/Type_Dossier" },
             { name: "Paramètres Globales", to: "/Admin/Parametres_globales" },
             { name: "Honoraires en Extra", to: "/Admin/Honoraires_en_extra" },
             { name: "Timbre", to: "/Admin/Timbre" },
