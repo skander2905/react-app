@@ -63,7 +63,7 @@
     border-radius: 5px !important;
     color: rgb(0, 0, 0) !important;
     margin-left: 25px !important;
-    width: 200px;
+    width: 210px;
 
 }
 
@@ -110,14 +110,14 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-.logout button p{
+.logout button p {
     color: white;
 }
 
-.fa-arrow-right-from-bracket{
+.fa-arrow-right-from-bracket {
     color: #fff;
 }
 
-button{
+button {
     background: black;
 }

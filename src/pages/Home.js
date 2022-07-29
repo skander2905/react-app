@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import ConnectModal from "../component/ConnectModal";
 import { onAuthStateChanged, signOut } from "firebase/auth";
 import { auth } from "../utils/firebase.config";
-import CreatePost from "./CreatePost";
+import Admin from "./Admin";
 import "../index.css"
 import { Navigate } from 'react-router-dom';
 
@@ -29,7 +29,7 @@ const Home = () => {
           <div class="container">
             <div class="row text-center">
               <div class="col-md-8">
-                <h1 ><centre><b>Bienvenu!</b></centre></h1>
+                <h1 ><centre><b>Bienvenue!</b></centre></h1>
                 <h1 class="white-text">Gérer vos Factures facilement</h1>
                 <h5 class="white-text">Gérez votre fichier client, établissez des devis et générez des factures gratuitement</h5>
                 <div id="countdown" class="white-text"></div>
@@ -77,11 +77,11 @@ const Home = () => {
 
                 <div className="auth">
                   <div className="app-header">
-                    
+
 
 
                     {user ? (
-                      <Navigate replace to="/CreatePost" />
+                      <Navigate replace to="/Admin" />
                     ) : (
                       <ConnectModal />
                     )}

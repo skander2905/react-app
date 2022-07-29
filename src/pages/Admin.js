@@ -1,5 +1,5 @@
 import React from 'react';
-import "./CreatePost.css";
+import "./Admin.css";
 import SideMenu from "../component/SideMenu"
 import { Container } from 'react-dom';
 import { BrowserRouter, Routes, Route } from "react-router-dom"
@@ -11,7 +11,7 @@ import { auth } from "../utils/firebase.config";
 
 
 
-const CreatePost = () => {
+const Admin = () => {
     const [user, setUser] = useState(null);
     //methode se met a jour chaque fois l'authentification change
     //on voir voir s'il y a un utilisateur
@@ -20,9 +20,9 @@ const CreatePost = () => {
     });
     return (
         <div className='page1'>
-            <h5>Welcome {user?.displayName}</h5>
+            <h5>Bienvenue {user?.displayName}</h5>
         </div>
     );
 };
 
-export default CreatePost;
+export default Admin;

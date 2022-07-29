@@ -5,7 +5,7 @@ import { auth } from "../utils/firebase.config";
 import MenuItem from './MenuItem';
 import Home from '../pages/Home';
 import { Link } from 'react-router-dom';
-import "../pages/CreatePost.css";
+import "../pages/Admin.css";
 
 
 const menuItems = [
@@ -13,33 +13,41 @@ const menuItems = [
         name: 'Paramètres',
         exact: true,
         subMenus: [
-            { name: "Type dossier", to: "/CreatePost/Type_Dossier" },
-            { name: "Paramètres globales", to: "/CreatePost/Parametres_globales" },
-            { name: "Honoraires en extra", to: "/CreatePost/Honoraires_en_extra" },
-            { name: "Timbre", to: "/CreatePost/Timbre" },
-            { name: "Photocopie", to: "/CreatePost/Photocopie" },
-            { name: "Transport", to: "/CreatePost/Transport" },
-            { name: "Recette du finance", to: "/CreatePost/Recette_du_finance" },
-            { name: "Emplacement dossier", to: "/CreatePost/Emplacement_dossier" },
-            { name: "Tribunaux et administration", to: "/CreatePost/Tribunaux_et_administration" },
-            { name: "Utilisateur", to: "/CreatePost/Utilisateur" },
-            { name: "Huissier", to: "/CreatePost/Huissier" },
-            { name: "Collaborateur", to: "/CreatePost/Collaborateur" },
-            { name: "Greffier", to: "/CreatePost/Greffier" },
-            { name: "Prime greffier", to: "/CreatePost/Prime_greffier" },
+            { name: "Type Dossier", to: "/Admin/Type_Dossier" },
+            { name: "Paramètres Globales", to: "/Admin/Parametres_globales" },
+            { name: "Honoraires en Extra", to: "/Admin/Honoraires_en_extra" },
+            { name: "Timbre", to: "/Admin/Timbre" },
+            { name: "Photocopie", to: "/Admin/Photocopie" },
+            { name: "Transport", to: "/Admin/Transport" },
+            { name: "Recette du Finance", to: "/Admin/Recette_du_finance" },
+            { name: "Emplacement Dossier", to: "/Admin/Emplacement_dossier" },
+            { name: "Tribunaux et Administration", to: "/Admin/Tribunaux_et_administration" },
+            { name: "Utilisateur", to: "/Admin/Utilisateur" },
+            { name: "Huissier", to: "/Admin/Huissier" },
+            { name: "Collaborateur", to: "/Admin/Collaborateur" },
+            { name: "Greffier", to: "/Admin/Greffier" },
+            { name: "Prime Greffier", to: "/Admin/Prime_greffier" },
         ],
         iconClassName: 'bi bi-gear',
     },
     {
         name: 'Client',
         exact: true,
-        to: "/CreatePost/client",
+        subMenus: [
+            { name: "Gestion Client", to: "/Admin/Gestion_Client" },
+            { name: "Fiche Signalitique", to: "/Admin/Fiche_Signalitique" },
+        ],
         iconClassName: 'bi bi-people-fill',
     },
     {
         name: 'Dossier',
         exact: true,
-        to: "/CreatePost/dossier",
+        subMenus: [
+            { name: "Recherche", to: "/Admin/Recherche" },
+            { name: "Emplacement Dossier", to: "/Admin/Emplacement_Dossier1" },
+            { name: "Creation", to: "/Admin/Creation" },
+            { name: "Gestion Archive", to: "/Admin/Gestion_Archive" },
+        ],
         iconClassName: 'bi bi-folder',
     },
 ];
@@ -70,26 +78,6 @@ const SideMenu = () => {
                             iconClassName={menuItem.iconClassName}
                         />
                     ))}
-                    {/*<MenuItem
-                        name={"Parametres"}
-                        subMenus={[{ name: "type dossier" }, { name: "taxe" }]}
-                    />
-                    <li>
-                        <a className='menu-item'>
-                            <div className='menu-icon'>
-                                <i class="bi bi-people-fill"></i>
-                            </div>
-                            Client
-                        </a>
-                    </li>
-                    <li>
-                        <a className='menu-item'>
-                            <div className='menu-icon'>
-                                <i class="bi bi-folder"></i>
-                            </div>
-                            Dossier
-                        </a>
-    </li> */}
                 </ul>
 
             </div>
